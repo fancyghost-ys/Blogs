@@ -1,0 +1,32 @@
+
+.menu-bar{
+    background-color: #b80808 ;
+}
+.logo{
+    font-family: 'Anton';
+    color: rgb(234, 254, 255);
+}
+
+.nav-item{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: large;
+}
+
+.img-profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+img{
+    display: flex;
+    align-self: center;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+
+  

@@ -1,0 +1,30 @@
+.header{
+    font-family: 'Yanone Kaffeesatz';
+    color: #80080e;
+    font-size: xx-large;
+}
+
+.desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#000000;
+    font-size: large;
+
+}
+
+.form-window{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    padding: 1rem;
+    position: relative;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    width: 25vw;
+    transform: translate(-50%, -50%);
+}
+
+    .btn-sub{
+        background-color: #aa0b13;
+        border: 2px solid #fff;
+        color: #fff;
+    }
