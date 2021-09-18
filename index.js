@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use(cors())
 app.use(router)
-app.listen(config.appPort,()=> {
+const PORT = process.env.PORT || 8000
+app.listen(PORT,()=> {
     console.log(`Server is running now on ${config.appURL}:${config.appPort}`)
 })
