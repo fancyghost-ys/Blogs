@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "fedee589-f440-40c2-90a8-285530bfcb60",
+		"name": "trufla",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/article/createArticle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \"id\":\"sss\",\n    \"title\":\"the truth\",\n    \"body\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\n    \"authorId\":\"mLAG7l0ub\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/article/createArticle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"createArticle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/article/getAllArticles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/article/getAllArticles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"getAllArticles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/article/getArticle/vdD46BjEw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/article/getArticle/vdD46BjEw",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"getArticle",
+						"vdD46BjEw"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/article/searchByAuthorName?name=Mikal",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"id\":\"sss\",\n    \"title\":\"the good and bad\",\n    \"body\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry\",\n    \"authorId\":\"48SVrx_Cu\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/article/searchByAuthorName?name=John Doe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"searchByAuthorName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "John Doe"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/article/searchByAuthorName?name=maria john",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/article/searchByAuthorName?name=maria john",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"searchByAuthorName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "maria john"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/article/updateArticle/gSZx78V8Jb/mLAG7l0ub",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Drink Coffee\",\n    \"body\":\"nsdfaskldfhas\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/article/updateArticle/gSZx78V8Jb/mLAG7l0ub",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"updateArticle",
+						"gSZx78V8Jb",
+						"mLAG7l0ub"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/article/deleteArticle/-z5iH2wDD",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/article/deleteArticle/-z5iH2wDD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"article",
+						"deleteArticle",
+						"-z5iH2wDD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/author/createAuthor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"low\",\n    \"jobTitle\":\"Freelance Writer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/author/createAuthor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"author",
+						"createAuthor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/author/signInAuthor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"lsow\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/author/signInAuthor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"author",
+						"signInAuthor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/author/getAllAuthors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/author/getAuthor/DmvDhuK8I",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"author",
+						"getAuthor",
+						"DmvDhuK8I"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/author/updateAuthor/qq4s2o_PZU",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Mikal\",\n    \"jobTitle\":\"former writer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/author/updateAuthor/qq4s2o_PZU",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"author",
+						"updateAuthor",
+						"qq4s2o_PZU"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/others/thumbsUp/vdD46BjEw/6bfxbO9kK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/others/thumbsUp/vdD46BjEw/6bfxbO9kK",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"others",
+						"thumbsUp",
+						"vdD46BjEw",
+						"6bfxbO9kK"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/others/sortArticleByThumbs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/others/sortArticleByThumbs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"others",
+						"sortArticleByThumbs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/others/thumbsUp/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"comment\":\"not bad \"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/others/addComments/vdD46BjEw/jqAKx4P_d5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"others",
+						"addComments",
+						"vdD46BjEw",
+						"jqAKx4P_d5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/user/thumbsUp/kYVAXh00KX/EA9DgDX3aG",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\":\"mi\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/user/createUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"createUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/user/signInUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\":\"Aly\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/user/signInUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"signInUser"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
