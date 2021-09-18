@@ -7,7 +7,7 @@ import moment from 'moment'
 import Moment from 'react-moment'
 
 
-const ArticleList = ({ }) => {
+const ArticleList = () => {
     const [values, setValues] = useState([])
     const [top, setTop] = useState([]);
     const {

@@ -88,7 +88,7 @@ const AuthorProfile = () => {
                         />
                     </div>
                     <button onClick={clickSubmit} class="w-100 btn btn-ls my-2 btn-sub" type="submit">Creat New</button>
-                    <p class="mt-2 mb-1 fs-7">I have Account <span onClick={() => setshowCreateAccount(false)}>SignIn</span></p>
+                    <p class="mt-2 mb-1 fs-7">I have Account <span className="p-2" onClick={() => setshowCreateAccount(false)}>SignIn</span></p>
                 </div>
             }
 
@@ -102,7 +102,7 @@ const AuthorProfile = () => {
                         />
                     </div>
                     <button onClick={clickSignin} class="w-100 btn btn-ls my-2 btn-sub" type="submit">SignIn</button>
-                    <p class="mt-2 mb-1 fs-7">I Don't have Account</p> <Link onClick={() => setshowCreateAccount(true)}>Create Author</Link>
+                    <p class="mt-2 mb-1 fs-7">I Don't have Account<span  className="p-2" onClick={() => setshowCreateAccount(true)}>Create Author</span></p> 
                 </div>
             }
 
