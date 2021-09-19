@@ -11,36 +11,28 @@ The task is created to Trufla and it was backend API for a simple blog system co
 1- Main branch consist of Backend folder, Frontend folder, Database folder which contain Sequelize files and Image for database Schema or ERD Diagram
 
 2- Deployment branch consists of server and client folders and this file is prepared for deployment but the issue faced me was can't deploy
-
 MySQL database free without credit information.
 
 
 **Project Objective**
 
-
 Additional to be a node.js backend challenge it take me to many useful points like convert
-
 complex database queries to sequelize like left join, outer join.
 
-
 There is one important point which is database structure build based on database schema 
-
 documentation for future upgrades or other uses for these data so any relationships take 
-
-consider future work to just high efficiency not just for current time work
+consider future work to just high efficiency not just for current time work.
 
 
 
 **Description**
 
 1- Articles contain article model (title, body, and author ) addition to API (Create a new article, 
-
 list all articles, Read/retrieve article by id, update or delete the article )
 
 2- Filter or search consists of API for (search for article by title, piece of body, author Id, author name)
 
 3- Author contain author model (name, job title) addition and Have API for creating new author, 
-
 list all author, read/retrieve author information by id or name, and update profile )
 
 4- User consists of API for ( create new user, check the user exists, add comments for article and thumbs up to any article)
@@ -48,13 +40,10 @@ list all author, read/retrieve author information by id or name, and update prof
 5- The last API created was a short article based on a thumbs-up count.
 
 6- The database and relations between tables were created based on most database documentation,
-
 and structure was put to fit for further upgrades and use data in other functions effective ways
-
 for example (author and article have many-to-one, users and articles many-to-many, etc...
 
 7- uses sequelize ORM was a very good choice for me because it makes deals with errors, updates more easy, 
-
 fast and of course more secure than using MySQL queries directly in node.js project. 
 
 
