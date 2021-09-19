@@ -8,7 +8,7 @@ The task is created to Trufla and it was backend API for a simple blog system co
 
 **github Repo Content**
 
-1- Main branch consist of Backend folder, Frontend folder, Database folder which contain Sequelize files and Image for database Schema or ERD Diagram
+1- Main branch consist of Backend folder, Frontend folder, Database folder which contain Sequelize files and Image for database Schema or ERD Diagram and Postman file that contain tests API
 
 2- Deployment branch consists of server and client folders and this file is prepared for deployment but the issue faced me was can't deploy
 MySQL database free without credit information.
