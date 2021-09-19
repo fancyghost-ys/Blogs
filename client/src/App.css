@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg {
+  background-image: url("./assets/Articles.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .font1{
+    font-family: 'Anton';
+    color: rgb(234, 254, 255);
+    font-size: 70px;
+  }
+  .font2{
+    font-family: 'Yanone Kaffeesatz';
+    color: rgb(248, 243, 238);
+    font-size: xx-large;
+    
+  }
+
+  
+  .btn-II{
+    border-radius: 50px;
+    background-color:  #e6e6e6;
+    color:  #000000;
+    height: 45px;
+    width: 130px;
+    font-size: x-large;
+    justify-content: center;
+
+  }
+
+    
+  .btn-I{
+    border-radius: 50px;
+    background-color:  #15417e;
+    color:  #ffffff;
+    height: 45px;
+    width: 130px;
+    font-size: x-large;
+    justify-content: center;
+
+  }
+
+  h1{
+    font-family:'Yanone Kaffeesatz';
+  }
+
+  h2{
+    font-family:'Yanone Kaffeesatz';
+  }
+
+  h4{
+    font-family:'Yanone Kaffeesatz';
+  }
+
+  span{
+    text-decoration: underline;
+
+  }
