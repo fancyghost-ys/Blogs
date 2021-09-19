@@ -46,10 +46,20 @@ for example (author and article have many-to-one, users and articles many-to-man
 7- uses sequelize ORM was a very good choice for me because it makes deals with errors, updates more easy, 
 fast and of course more secure than using MySQL queries directly in node.js project. 
 
+
 **Tools**
-First Backend: Addition to Nodejs, expressjs use as an HTTP server for API, Sequelize ORM to deal with the database,
+
+First Backend: 
+
+Addition to Nodejs, expressjs use as an HTTP server for API, Sequelize ORM to deal with the database,
 use many middlewares to help in retrieve data from API such as morgan, cors, and body-parser,
 use other libs such as strongid, uuid, etc...
+and ofcourse Postman to test API
+
+Second Frontend: 
+
+This consist of a simple React web application build just to help the use backend API who it works and dataflow 
+
 
 
 **Usage**
