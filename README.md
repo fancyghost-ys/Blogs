@@ -46,13 +46,17 @@ for example (author and article have many-to-one, users and articles many-to-man
 7- uses sequelize ORM was a very good choice for me because it makes deals with errors, updates more easy, 
 fast and of course more secure than using MySQL queries directly in node.js project. 
 
-
+**Tools**
+First Backend: Addition to Nodejs, expressjs use as an HTTP server for API, Sequelize ORM to deal with the database,
+use many middlewares to help in retrieve data from API such as morgan, cors, and body-parser,
+use other libs such as strongid, uuid, etc...
 
 
 **Usage**
 
 
-In order to use this App, you need terminal. You also need to download and install node.js ,npm and react. You will also need to signin to Mongodb.com. or just use mate database because i already allows access from any IP's. In addition, make sure npm install to update and add any package you will need after clone project. if you want just to see how the app works.
+In order to use this App, you need terminal. You also need to download and install node.js ,npm and react. You will also need to setup database file in your mysql path. In addition, make sure npm install to update and add any package you will need after clone project.
+if you want just to see how the app works.
 
 **Credits and Reference**
 
